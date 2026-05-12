@@ -1,0 +1,7 @@
+def guess_area(alignment, morph_type, word_order):
+    if alignment == "эргативный" and morph_type == "агглютинативный":
+        return "Возможно, Кавказ, Баски, Памир или Австралия"
+    if alignment == "эргативный" and morph_type == "полисинтетический":
+        return "Возможно, Чукотка, Северная Америка (на-дене)"
+    if alignment == "аккузативный" and word_order == "SOV" and morph_type == "агглютинативный":
+        return "Возможно, Алтайский регион, Корея, Япония"
